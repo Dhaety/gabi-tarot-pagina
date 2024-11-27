@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabi Tarot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('https://static.vecteezy.com/system/resources/thumbnails/037/995/847/small_2x/ai-generated-tarot-cards-candles-background-photo.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+        }
+        header img {
+            height: 50px;
+            margin-right: 1rem;
+        }
+        header h1 {
+            background-color: rgba(183, 28, 28, 0.8); /* Fondo semitransparente */
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+        }
+        nav {
+            background-color: #d32f2f; /* Rojo vibrante */
+            padding: 0.5rem 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+            gap: 1.5rem;
+        }
+        .card {
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin-top: 1rem;
+            color: #d32f2f;
+        }
+        .card p {
+            margin: 1rem 0;
+            color: #555;
+        }
+        .card button {
+            background-color: #d32f2f; /* Rojo vibrante */
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .card button:hover {
+            background-color: #b71c1c; /* Rojo oscuro */
+        }
+        footer {
+            background-color: #b71c1c;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://hips.hearstapps.com/hmg-prod/images/tarot-y-tiktok-1613475230.jpg" alt="Logo">
+        <h1>Gabi Tarot</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="card">
+                <img src="https://dcdn.mitiendanube.com/stores/003/659/004/products/20240731_175501-e6c20d5f1115fddfc317224763735569-480-0.jpg" alt="Imagen 1">
+                <h3>Lectura General</h3>
+                <p>Lectura General viendo amor, trabajo y economía<br>
+                    30 Minutos<br>
+                    70$
+                </p>
+                <button onclick="window.open('https://wa.me/1234567890', '_blank')">Reservar</button>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2024/03/19/16/27/tarot-8643585_640.png" alt="Imagen 2">
+                <h3>Lectura General de Amor</h3>
+                <p>Vamos a ver qué pasa con tu Melón con patas o qué viene para ti en el Amor<br>
+                    30 Minutos<br>
+                    75$
+                </p>
+                <button onclick="window.open('https://wa.me/1234567890', '_blank')">Reservar</button>
+            </div>
+            <div class="card">
+                <img src="https://imagenes.elpais.com/resizer/v2/734BDQZIDND7PC4YFNIFUNY6RY.jpg?auth=0dd1a1bb01f518e23889ff6d4c75877a8addfb59a36f7047d4b2455524b5e427&width=1960&height=1470&focal=2847%2C1126" alt="Imagen 3">
+                <h3>Tarot General Amor Express</h3>
+                <p>Lectura General Rápida<br>
+                    15 Minutos<br>
+                    50$
+                </p>
+                <button onclick="window.open('https://wa.me/1234567890', '_blank')">Reservar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gabi Tarot. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
